@@ -17,46 +17,46 @@ rsync -avz  hbase/init-hive-hbase/*  /Users/moyong/project/env-myopensource/3-to
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-cdh5/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-nn/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-dn/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-yarn/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 #hbase的基础包
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hbase/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hb/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-initdb/
 mkdir snappy
-cp snappy snappy/Dockerfile
+cp Dockerfile-snappy-spark snappy/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
