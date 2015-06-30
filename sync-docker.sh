@@ -4,11 +4,10 @@ rsync -vz  *  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-
 
 rsync -avz  hdfs/nn/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-nn/
 rsync -avz  hdfs/dn/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-dn/
-rsync -avz  hdfs/resource/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
 rsync -avz  hdfs/yarn/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-yarn/
 
 #hbase的基础包
-rsync -avz  hbase/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hbase/
+rsync -vz  hbase/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hbase/
 
 rsync -avz  hbase/hmaster/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hb/
 rsync -avz  hbase/hregionserver/*  /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
@@ -17,22 +16,47 @@ rsync -avz  hbase/init-hive-hbase/*  /Users/moyong/project/env-myopensource/3-to
 
 
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-cdh5/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-nn/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-dn/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-yarn/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
 
 #hbase的基础包
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hbase/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-hb/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-rs/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
+
 cd /Users/moyong/project/env-myopensource/3-tools/docker/cloud/cloud-initdb/
+mkdir Dockerfile-snappy-spark
+cp Dockerfile-snappy-spark Dockerfile-snappy-spark/Dockerfile
 sh /Users/moyong/project/env-myopensource/3-tools/docker/mygit.sh  更新项目名称
